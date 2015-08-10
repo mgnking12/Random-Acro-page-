@@ -1,0 +1,232 @@
+/*HTML*/
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 30px;
+}
+hr {
+    width: 25%;
+    border: 1px solid #000;
+}
+/*navigation*/
+
+.navbar-default {
+    background-color: #231F20;
+    border: none;
+}
+
+.navbar-default .navbar-collapse {
+    color: #999;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+/*landing*/
+
+
+
+#landing .col-sm-3, fa-phone, fa-hand-o-down {
+    display: none;
+    display: inline;
+}
+
+#landing {
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 90%;
+    color: #fff;
+    background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#landing .col-sm-12 {
+    margin-top: 80px;
+}
+
+#landing h2 {
+    font-size: 60px;
+    text-shadow: 1px 2px black;
+}
+
+#landing p {
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px black;
+}
+
+#landing a {
+    border-radius: 15%;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+/*who-we-are*/
+
+
+#who-we-are {
+    background-color: #F2F2F0;
+}
+
+#who-we-are h2 {
+    margin-bottom: 50px;
+}
+
+#who-we-are p {
+    font-size: 16px;
+}
+
+#benefits h2 {
+    margin-bottom: 50px;
+}
+
+#benefits p {
+    width: 220px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#short {
+    height: 250px;
+    width: 250px;
+}
+
+
+#activities {background-color: #ccc;}
+
+#activities p {margin: 50px;}
+
+
+/*foot*/ 
+
+#foot {background-color: black;
+    color: #fff;
+padding: 50px;}
+#foot a { 
+    border: 2px solid #fff;
+    padding: 5px;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+
+/*tablet*/
+
+@media screen and (min-width:  768px) and (max-width: 1200px) {
+    #benefits img {height: 180px;
+    width: 180px;
+        margin-left: 50px;
+    }
+    #benefits p {width: 180px;
+    font-size: 10px;
+   margin-top: 15px;
+    margin-left: 50px;}
+    
+    #who-we-are p {font-size: 12px;}
+    
+    #activities img {width: 80%;
+    margin-left: 50px;}
+    
+}
+
+
+#landing .col-sm-3, fa-phone, fa-hand-o-down {
+   display: none;
+   display: inline;
+}
+
+
+
+
+/*iphone*/
+
+
+@media only screen and (max-width: 768px) {
+   #landing { margin-top: 15px;
+    padding-top: 50px;
+    height: 60%;
+    color: #fff;
+    background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
+         background-repeat: no-repeat;
+    background-position: center;
+       background-size: cover; 
+   }
+    
+    #landing h2 {font-size: 30px;
+    margin: 10px;}
+    
+    #landing p {font-size: 20px;}
+    #landing a {padding: 5px;
+        font-size: 15px;}
+    
+    #map-canvas {
+        width: 500px;
+        height: 400px;
+           background-color: #CCC;
+        margin: 20px auto;
+        margin-top: 50px;
+      }
+  
+
+#landing .col-sm-3 {
+        font-size: 20px;
+        padding-left: 90px;
+        width: 500px;
+    
+    }
+    #phone {margin-top: 30px;
+        margin-left: 50px;
+        text-align: left;
+     visibility: visible;}
+    #location {
+         margin-left: 50px;
+        text-align: left;
+     visibility: visible;}
+    
+    
+    .fa-phone {margin:20px;}
+    .fa-hand-o-down {margin: 20px;}
+    
+    #benefits{
+    text-align: center;}
+     #benefits p{
+         width: 280px;
+    margin-left: 150px;}
+    
+    #who-we-are img {width: 70%;
+        margin-left:90px;
+    }
+    
+    #who-we-are p {font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    width: 70%;
+    margin-left:90px;}
+    
+    #activities p {text-align: center;
+    margin-left: 50px;}
+    #activities img {width: 70%;
+    margin-left: 100px;}
+}
+
+
+ 
+
