@@ -1,5 +1,6 @@
 /*HTML*/
 
+
 html,
 body {
     height: 100%;
@@ -70,7 +71,7 @@ hr {
 }
 
 #landing a {
-    border-radius: 15%;
+    border-radius: 5%;
     margin-top: 50px;
     border: 2px solid #fff;
     padding: 15px;
@@ -83,6 +84,7 @@ hr {
 
 #who-we-are {
     background-color: #F2F2F0;
+    font-size: 25px;
 }
 
 #who-we-are h2 {
@@ -90,7 +92,7 @@ hr {
 }
 
 #who-we-are p {
-    font-size: 16px;
+    font-size: 26px;
 }
 
 #benefits h2 {
@@ -101,6 +103,7 @@ hr {
     width: 220px;
     text-align: center;
     margin-top: 20px;
+    font-size: 16px;
 }
 
 #short {
@@ -136,11 +139,11 @@ padding: 50px;}
         margin-left: 50px;
     }
     #benefits p {width: 180px;
-    font-size: 10px;
+    font-size: 12px;
    margin-top: 15px;
     margin-left: 50px;}
     
-    #who-we-are p {font-size: 12px;}
+    #who-we-are p {font-size: 16px;}
     
     #activities img {width: 80%;
     margin-left: 50px;}
@@ -209,13 +212,14 @@ padding: 50px;}
     text-align: center;}
      #benefits p{
          width: 280px;
-    margin-left: 150px;}
+    margin-left: 150px;
+     font-size: 12px;}
     
     #who-we-are img {width: 70%;
         margin-left:90px;
     }
     
-    #who-we-are p {font-size: 10px;
+    #who-we-are p {font-size: 12px;
     text-align: center;
     margin-top: 20px;
     width: 70%;
@@ -225,8 +229,7 @@ padding: 50px;}
     margin-left: 50px;}
     #activities img {width: 70%;
     margin-left: 100px;}
+    
+    
 }
-
-
- 
 
