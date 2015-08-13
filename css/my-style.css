@@ -65,6 +65,10 @@ hr {
 
 #phone {
     margin: 10px 20px;
+      font-size: 25px;
+    color: #ccc;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
 }
 
 #landing {
@@ -75,25 +79,6 @@ hr {
     margin-top: 100px;
 }
 
-#landing h2 {
-    font-size: 60px;
-    text-shadow: 1px 2px black;
-}
-
-#landing p {
-    font-size: 25px;
-    margin-top: 0px;
-    text-shadow: 2px 2px black;
-}
-
-#landing a {
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 25px;
-    color: #ccc;
-    text-shadow: 2px 2px black;
-    text-decoration: none;
-}
 /*who-we-are*/
 
 #who-we-are {
