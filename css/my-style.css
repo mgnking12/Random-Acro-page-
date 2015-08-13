@@ -34,16 +34,13 @@ hr {
     color: #48783E;
 }
 
-
 .top-buttons:hover {
     text-align: justify;
     width: [width of img];
     height: 100px;
     background-image: url('https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100');
-        
 }
 /*landing*/
-
 
 .topleft {
     width: 50%;
@@ -52,11 +49,10 @@ hr {
     background-color: #CC9999;
 }
 
-.topleft img { 
+.topleft img {
     height: 225px;
     border-radius: 100%;
-    margin: 50px 20px;
-    margin-top: 90px;
+    margin: 20px 20px;
 }
 
 .topright {
@@ -67,9 +63,13 @@ hr {
     padding-top: 60px;
 }
 
-#phone {margin: -20px 20px;}
+#phone {
+    margin: 10px 20px;
+}
 
-#landing {margin-top: -50px;}
+#landing {
+    margin-top: -50px;
+}
 
 #landing .col-sm-12 {
     margin-top: 100px;
@@ -150,6 +150,9 @@ hr {
 /*tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .topleft {
+        width: 100%;
+    }
     #benefits img {
         height: 180px;
         width: 180px;
@@ -174,15 +177,15 @@ hr {
     margin-top: 0px;
     text-align: center;
 }
-
-
 /*iphone*/
 
 @media only screen and (max-width: 768px) {
-    
-    .top-buttons:hover {height: inherit;}
-   
-    
+    .top-buttons:hover {
+        height: inherit;
+    }
+    .topleft {
+        width: 100%;
+    }
     #landing h2 {
         font-size: 30px;
         margin: 10px;
@@ -206,17 +209,14 @@ hr {
         padding-left: 90px;
         width: 500px;
     }
-   
     #benefits {
         text-align: center;
     }
-    
-     #benefits p{
-         text-align: justify;
-    width: [width of img];
-         margin: 10px 20px;
-     }
-    
+    #benefits p {
+        text-align: justify;
+        width: [width of img];
+        margin: 10px 20px;
+    }
     #who-we-are img {
         width: 70%;
         margin-left: 90px;
