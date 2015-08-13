@@ -9,26 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-    <script>
-        function initialize() {
-            var mapOptions = {
-                zoom: 15,
-                center: new google.maps.LatLng(30.231082, -97.79343399999999)
-            }
-            var map = new google.maps.Map(document.getElementById('map-canvas'),
-                mapOptions);
-
-            var image = 'images/beachflag.png';
-            var myLatLng = new google.maps.LatLng(30.231082, -97.79343399999999);
-            var beachMarker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                icon: HTMLImageElement
-            });
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    
 </head>
 
 <body>
@@ -41,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand top-button" href="#landing">Megan Taylor King </a>
+                <a class="navbar-brand" href="#landing">Megan Taylor King </a>
             </div>
 
             <!-- Collect the nav links for toggling -->
@@ -69,7 +50,7 @@
             <a href="https://www.facebook.com/megantking">
                 <img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/11230599_10205975254932960_2843176119736684768_n.jpg?oh=f73cc46209729c5da33fec5f8053ae81&oe=55F5DC13" /> </a>
             <div class="row">
-                <div class="col-sm-6" id="phone"><i class="fa fa-phone"></i> <a href="tel:281-844-4058">281-844-4058</a>
+                <div class="col-sm-11" id="phone"><i class="fa fa-phone"></i> <a href="tel:281-844-4058">281-844-4058</a>
                 </div>
             </div>
         </div>
