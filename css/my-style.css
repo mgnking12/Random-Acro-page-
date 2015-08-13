@@ -21,7 +21,9 @@ hr {
 /*navigation*/
 
 .navbar-default {
-    background-color: #382F32;
+    
+    background-color: white;
+    opacity: .8;
     border: none;
 }
 
@@ -47,7 +49,7 @@ fa-hand-o-down {
 }
 
 #landing {
-    margin-top: 50px;
+    margin-top: -50px;
     padding-top: 50px;
     height: 90%;
     color: #fff;
@@ -218,7 +220,7 @@ fa-hand-o-down {
      #benefits p{
          text-align: justify;
     width: [width of img];
-         margin: 10px 30px;
+         margin: 10px 20px;
      }
     
     #who-we-are img {
