@@ -170,16 +170,7 @@ fa-hand-o-down {
 /*iphone*/
 
 @media only screen and (max-width: 768px) {
-    #landing {
-        margin-top: 15px;
-        padding-top: 50px;
-        height: 60%;
-        color: #fff;
-        background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+    
     #landing h2 {
         font-size: 30px;
         margin: 10px;
