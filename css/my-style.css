@@ -1,6 +1,5 @@
 /*HTML*/
 
-
 html,
 body {
     height: 100%;
@@ -14,6 +13,7 @@ h2 {
     font-size: 40px;
     margin: 30px;
 }
+
 hr {
     width: 25%;
     border: 1px solid #000;
@@ -21,22 +21,27 @@ hr {
 /*navigation*/
 
 .navbar-default {
-    background-color: #231F20;
+    background-color: #382F32;
     border: none;
 }
 
-.navbar-default .navbar-collapse {
-    color: #999;
+.navbar-default .navbar-collapse>li>a {
+    color: #DFFFD1;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fff;
+    color: #48783E;
+}
+
+.top-buttons:hover {
+    background-image: url('https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100');
+    height: 100px
 }
 /*landing*/
 
-
-
-#landing .col-sm-3, fa-phone, fa-hand-o-down {
+#landing .col-sm-3,
+fa-phone,
+fa-hand-o-down {
     display: none;
     display: inline;
 }
@@ -46,17 +51,14 @@ hr {
     padding-top: 50px;
     height: 90%;
     color: #fff;
-    background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
+    background-color: #9E9C80;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-
-
-
 #landing .col-sm-12 {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 #landing h2 {
@@ -66,25 +68,23 @@ hr {
 
 #landing p {
     font-size: 25px;
-    margin-bottom: 25px;
+    margin-top: 0px;
     text-shadow: 2px 2px black;
 }
 
 #landing a {
-    border-radius: 5%;
-    margin-top: 50px;
-    border: 2px solid #fff;
-    padding: 15px;
+    margin-top: 10px;
+    padding: 5px;
     font-size: 25px;
-    color: #fff;
+    color: #ccc;
     text-shadow: 2px 2px black;
+    text-decoration: none;
 }
 /*who-we-are*/
 
-
 #who-we-are {
     background-color: #F2F2F0;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #who-we-are h2 {
@@ -92,7 +92,7 @@ hr {
 }
 
 #who-we-are p {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 #benefits h2 {
@@ -100,9 +100,8 @@ hr {
 }
 
 #benefits p {
-    width: 220px;
-    text-align: center;
-    margin-top: 20px;
+    text-align: justify;
+    width: [width of img];
     font-size: 16px;
 }
 
@@ -111,125 +110,144 @@ hr {
     width: 250px;
 }
 
+#activities {
+    background-color: #ccc;
+}
 
-#activities {background-color: #ccc;}
+#activities p {
+    margin-top: 50px;
+    font-size: 18px;
+}
+/*foot*/
 
-#activities p {margin: 50px;}
+#foot {
+    background-color: black;
+    color: #999;
+    padding: 50px;
+}
 
-
-/*foot*/ 
-
-#foot {background-color: black;
-    color: #fff;
-padding: 50px;}
-#foot a { 
-    border: 2px solid #fff;
+#foot a {
+    border: 2px solid #999;
     padding: 5px;
     font-size: 15px;
-    color: #fff;
+    color: #999;
     text-shadow: 2px 2px black;
 }
-
-
 /*tablet*/
 
-@media screen and (min-width:  768px) and (max-width: 1200px) {
-    #benefits img {height: 180px;
-    width: 180px;
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #benefits img {
+        height: 180px;
+        width: 180px;
         margin-left: 50px;
     }
-    #benefits p {width: 180px;
-    font-size: 12px;
-   margin-top: 15px;
-    margin-left: 50px;}
-    
-    #who-we-are p {font-size: 16px;}
-    
-    #activities img {width: 80%;
-    margin-left: 50px;}
-    
+    #benefits p {
+        width: 180px;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    #who-we-are p {
+        font-size: 16px;
+    }
+    #activities img {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
-
-#landing .col-sm-3, fa-phone, fa-hand-o-down {
-   display: none;
-   display: inline;
+#activities p {
+    margin-top: 0px;
+    text-align: center;
 }
 
-
-
-
+#landing .col-sm-3,
+fa-phone,
+fa-hand-o-down {
+    display: none;
+    display: inline;
+}
 /*iphone*/
 
-
 @media only screen and (max-width: 768px) {
-   #landing { margin-top: 15px;
-    padding-top: 50px;
-    height: 60%;
-    color: #fff;
-    background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
-         background-repeat: no-repeat;
-    background-position: center;
-       background-size: cover; 
-   }
-    
-    #landing h2 {font-size: 30px;
-    margin: 10px;}
-    
-    #landing p {font-size: 20px;}
-    #landing a {padding: 5px;
-        font-size: 15px;}
-    
+    #landing {
+        margin-top: 15px;
+        padding-top: 50px;
+        height: 60%;
+        color: #fff;
+        background-image: url('../../img/Screen%20Shot%202015-07-29%20at%207.28.56%20PM.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #landing h2 {
+        font-size: 30px;
+        margin: 10px;
+    }
+    #landing p {
+        font-size: 20px;
+    }
+    #landing a {
+        padding: 5px;
+        font-size: 15px;
+    }
     #map-canvas {
         width: 500px;
         height: 400px;
-           background-color: #CCC;
+        background-color: #CCC;
         margin: 20px auto;
         margin-top: 50px;
-      }
-  
-
-#landing .col-sm-3 {
+    }
+    #landing .col-sm-3 {
         font-size: 20px;
         padding-left: 90px;
         width: 500px;
-    
     }
-    #phone {margin-top: 30px;
+    #phone {
+        margin-top: 30px;
         margin-left: 50px;
         text-align: left;
-     visibility: visible;}
+        visibility: visible;
+    }
     #location {
-         margin-left: 50px;
+        margin-left: 50px;
         text-align: left;
-     visibility: visible;}
-    
-    
-    .fa-phone {margin:20px;}
-    .fa-hand-o-down {margin: 20px;}
-    
-    #benefits{
-    text-align: center;}
-     #benefits p{
-         width: 280px;
-    margin-left: 150px;
-     font-size: 12px;}
-    
-    #who-we-are img {width: 70%;
-        margin-left:90px;
+        visibility: visible;
+    }
+    .fa-phone {
+        margin: 20px;
+    }
+    .fa-hand-o-down {
+        margin: 20px;
+    }
+    #benefits {
+        text-align: center;
     }
     
-    #who-we-are p {font-size: 12px;
-    text-align: center;
-    margin-top: 20px;
-    width: 70%;
-    margin-left:90px;}
+     #benefits p{
+         text-align: justify;
+    width: [width of img];
+         margin: 10px 70px;
+     }
     
-    #activities p {text-align: center;
-    margin-left: 50px;}
-    #activities img {width: 70%;
-    margin-left: 100px;}
-    
-    
+    #who-we-are img {
+        width: 70%;
+        margin-left: 90px;
+    }
+    #who-we-are p {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+        width: 70%;
+        margin-left: 90px;
+    }
+    #activities p {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    #activities img {
+        width: 70%;
+        margin-left: 100px;
+    }
 }
-
