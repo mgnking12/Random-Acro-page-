@@ -34,6 +34,13 @@ hr {
     color: #48783E;
 }
 
+.top-button:hover {
+    text-align: justify;
+    width: [width of img];
+    height: 100px;
+    background-image: url('https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100');
+        
+}
 .top-buttons:hover {
     text-align: justify;
     width: [width of img];
@@ -43,23 +50,34 @@ hr {
 }
 /*landing*/
 
-#landing .col-sm-3,
-fa-phone,
-fa-hand-o-down {
-    display: none;
-    display: inline;
+
+.topleft {
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: none;
+    background-color: #CC9999;
 }
 
-#landing {
-    margin-top: -50px;
-    padding-top: 50px;
-    height: 90%;
-    color: #fff;
-    background-color: #9E9C80;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.topleft img { 
+    height: 225px;
+    border-radius: 100%;
+    border: 1px solid #CC9999;
+    margin: 10px 100px 0px 15px;
 }
+
+.topright {
+    width: 50%;
+    height: 500px;
+    float: right;
+    border: none;
+    border-radius: 0px;
+    background-color: #FFFFCC;
+    padding-top: 60px;
+    border-radius; 0px 0px 0px 10px;
+}
+
+
 
 #landing .col-sm-12 {
     margin-top: 100px;
@@ -165,12 +183,7 @@ fa-hand-o-down {
     text-align: center;
 }
 
-#landing .col-sm-3,
-fa-phone,
-fa-hand-o-down {
-    display: none;
-    display: inline;
-}
+
 /*iphone*/
 
 @media only screen and (max-width: 768px) {
@@ -201,23 +214,7 @@ fa-hand-o-down {
         padding-left: 90px;
         width: 500px;
     }
-    #phone {
-        margin-top: 30px;
-        margin-left: 50px;
-        text-align: left;
-        visibility: visible;
-    }
-    #location {
-        margin-left: 50px;
-        text-align: left;
-        visibility: visible;
-    }
-    .fa-phone {
-        margin: 20px;
-    }
-    .fa-hand-o-down {
-        margin: 20px;
-    }
+   
     #benefits {
         text-align: center;
     }
