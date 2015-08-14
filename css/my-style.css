@@ -44,33 +44,30 @@ hr {
 }
 /*landing*/
 
-.top {
-    width: 100%;
-    height: 180px;
-      background-color: white;
-    opacity: .8;
-}
+
 
 .topleft {
     width: 50%;
-    height: 500px;
+    height: 250px;
     float: left;
     background-color: #CC9999;
+        opacity: .8;
 }
 
-.top img {
+.topleft img {
     height: 150px;
     border-radius: 100%;
-    margin: -70px 20px;
+    margin: -25px 20px;
     float: left;
 }
 
 .topright {
     width: 50%;
-    height: 500px;
+    height: 250px;
     float: right;
     background-color: #9E9C80;
     padding-top: 60px;
+        opacity: .8;
 }
 
 #phone {
@@ -91,8 +88,10 @@ hr {
 /*who-we-are*/
 
 #who-we-are {
-    background-color: #F2F2F0;
+    background-color: #2C515E;
     font-size: 18px;
+    color: #0B292B;
+    
 }
 
 #who-we-are h2 {
@@ -104,7 +103,7 @@ hr {
     width: [width of img];
     font-size: 20px;
 }
-
+#benefits {    background-color: #91814C;}
 #benefits h2 {
     margin-bottom: 50px;
 }
@@ -121,7 +120,7 @@ hr {
 }
 
 #activities {
-    background-color: #ccc;
+    background-color: #715F71;
 }
 
 #activities p {
