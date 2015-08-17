@@ -120,11 +120,9 @@ hr {
 }
 
 #activities {
-    visibility: inherit;
+    
     background-color: #715F71;
 }
-#activities:active {visibility: visible;}
-
 #activities p {
      text-align: justify;
     width: [width of img];
@@ -196,7 +194,7 @@ hr {
     #benefits p {
         text-align: justify;
         width: [width of img];
-        margin: 10px 30px;
+        margin: 0 auto;
         font-size: 14px;
     }
     #who-we-are img {
