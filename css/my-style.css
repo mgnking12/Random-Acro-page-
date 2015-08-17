@@ -47,13 +47,7 @@ hr {
 }
 /*landing*/
 
-.topleft {
-    width: 50%;
-    height: 250px;
-    float: left;
-    background-color: #CC9999;
-    opacity: .8;
-}
+
 
 .topleft img {
     height: 150px;
@@ -62,14 +56,6 @@ hr {
     float: left;
 }
 
-.topright {
-    width: 50%;
-    height: 250px;
-    float: right;
-    background-color: #9E9C80;
-    padding-top: 60px;
-    opacity: .8;
-}
 
 #phone {
     margin: 10px 20px;
@@ -150,9 +136,7 @@ hr {
 /*tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 968px) {
-    .topleft {
-        width: 100%
-    }
+    
     #benefits img {
         height: 180px;
         width: 180px;
@@ -178,9 +162,7 @@ hr {
     .top-buttons:hover {
         height: inherit;
     }
-    .topleft {
-        width: 100%;
-    }
+   
     #landing h2 {
         font-size: 30px;
         margin: 10px;

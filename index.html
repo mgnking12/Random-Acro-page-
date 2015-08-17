@@ -6,9 +6,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index-style.css" />
+     <link rel="stylesheet" href="css/my-style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+     <script type="text/javascript">
+    function toggleVisibility(divid) {
+    if (divid="develop"){
+        document.getElementById("about").style.visibility = "visible";
+        document.getElementById("products").style.visibility = "hidden";
+    }
+    else if (divid="products")
+    {
+        document.getElementById("products").style.visibility = "visible";
+        document.getElementById("about").style.visibility = "hidden";
+    }
+    }
+    </script>
+
+
+< href="#" onclick="toggleVisibility('about');">About
+
+< href="##" onclick="toggleVisibility1('products');"> Products
 
 </head>
 
@@ -39,6 +58,308 @@
 
 
     </section>
+    <section class="develop">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Megan Taylor King </a>
+            </div>
+
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#who-we-are" class="top-buttons">Who I Am</a>
+                    </li>
+                    <li>
+                        <a href="#benefits" class="top-buttons">Past Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="top-buttons">Inspiration</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Lading -->
+    <section id="landing" class="container-fluid text-center">
+        <div class="topleft">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="https://www.facebook.com/megantking">
+                        <img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/11230599_10205975254932960_2843176119736684768_n.jpg?oh=f73cc46209729c5da33fec5f8053ae81&oe=55F5DC13" /> </a>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-xs-11" id="phone"><i class="fa fa-phone"></i> <a href="tel:281-844-4058">281-844-4058</a>
+                </div>
+            </div>-->
+        </div>
+
+        <div class="topright hidden-sm hidden-xs visible-md visible-lg">
+            <div class="row">
+            </div>
+        </div>
+
+
+        <!-- Who We Are -->
+        <section id="who-we-are" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <br>
+                        <br>
+                        <h2>Who I Am</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97350&w=500&h=350" alt="logo" />
+                    </div>
+                    <div class="col-sm-8">
+                        <p id="first-par">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---benefits-->
+        <section id="benefits" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h1>Past Work</h1>
+                        <h3>Samples</h3>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="  col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <!--activities-->
+        <section id="activities" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2>The Jams!</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97350&w=500&h=350" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="foot" class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-2">
+                        <a href="#">Donate</a>
+                    </div>
+                    <div class="col-xs-2 ">
+                        <a href="#">Learn</a>
+                        <div class="col-xs-4"></div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+</section>
+ <section class="flip">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Megan Taylor King </a>
+            </div>
+
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#who-we-are" class="top-buttons">Who I Am</a>
+                    </li>
+                    <li>
+                        <a href="#benefits" class="top-buttons">Past Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="top-buttons">Inspiration</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Lading -->
+    <section id="landing" class="container-fluid text-center">
+        <div class="topleft">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="https://www.facebook.com/megantking">
+                        <img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/11230599_10205975254932960_2843176119736684768_n.jpg?oh=f73cc46209729c5da33fec5f8053ae81&oe=55F5DC13" /> </a>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-xs-11" id="phone"><i class="fa fa-phone"></i> <a href="tel:281-844-4058">281-844-4058</a>
+                </div>
+            </div>-->
+        </div>
+
+        <div class="topright hidden-sm hidden-xs visible-md visible-lg">
+            <div class="row">
+            </div>
+        </div>
+
+
+        <!-- Who We Are -->
+        <section id="who-we-are" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <br>
+                        <br>
+                        <h2>Who I Am</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97350&w=500&h=350" alt="logo" />
+                    </div>
+                    <div class="col-sm-8">
+                        <p id="first-par">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---benefits-->
+        <section id="benefits" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h1>Past Work</h1>
+                        <h3>Samples</h3>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="  col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="logo" class="short" />
+                        <p class="text-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <!--activities-->
+        <section id="activities" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2>The Jams!</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97350&w=500&h=350" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="foot" class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-2">
+                        <a href="#">Donate</a>
+                    </div>
+                    <div class="col-xs-2 ">
+                        <a href="#">Learn</a>
+                        <div class="col-xs-4"></div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+</section>
 </body>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
