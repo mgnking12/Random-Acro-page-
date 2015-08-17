@@ -11,11 +11,14 @@ section {
 
 h2 {
     font-size: 40px;
-    margin:40px;
-   
+    margin: 40px;
 }
-h3 {color: cadetblue;
- margin-bottom: 30px;}
+
+h3 {
+    color: cadetblue;
+    margin-bottom: 30px;
+}
+
 hr {
     width: 25%;
     border: 1px solid #000;
@@ -44,14 +47,12 @@ hr {
 }
 /*landing*/
 
-
-
 .topleft {
     width: 50%;
     height: 250px;
     float: left;
     background-color: #CC9999;
-        opacity: .8;
+    opacity: .8;
 }
 
 .topleft img {
@@ -67,12 +68,12 @@ hr {
     float: right;
     background-color: #9E9C80;
     padding-top: 60px;
-        opacity: .8;
+    opacity: .8;
 }
 
 #phone {
     margin: 10px 20px;
-      font-size: 25px;
+    font-size: 25px;
     color: #ccc;
     text-shadow: 1px 1px darkgrey;
 }
@@ -84,14 +85,12 @@ hr {
 #landing .col-sm-12 {
     margin-top: 100px;
 }
-
 /*who-we-are*/
 
 #who-we-are {
     background-color: #2C515E;
     font-size: 18px;
     color: #0B292B;
-    
 }
 
 #who-we-are h2 {
@@ -99,11 +98,15 @@ hr {
 }
 
 #who-we-are p {
-     text-align: justify;
+    text-align: justify;
     width: [width of img];
     font-size: 20px;
 }
-#benefits {    background-color: #488145;}
+
+#benefits {
+    background-color: #488145;
+}
+
 #benefits h2 {
     margin-bottom: 50px;
 }
@@ -120,11 +123,11 @@ hr {
 }
 
 #activities {
-    
     background-color: #715F71;
 }
+
 #activities p {
-     text-align: justify;
+    text-align: justify;
     width: [width of img];
     margin-top: 50px;
     font-size: 18px;
@@ -147,17 +150,15 @@ hr {
 /*tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 968px) {
-    
-    .topleft {width: 100%}
-    
+    .topleft {
+        width: 100%
+    }
     #benefits img {
         height: 180px;
         width: 180px;
- 
     }
     #benefits p {
         font-size: 12px;
-  
     }
     #who-we-are p {
         font-size: 16px;
@@ -184,14 +185,15 @@ hr {
         font-size: 30px;
         margin: 10px;
     }
-   
     #landing .col-sm-3 {
         font-size: 20px;
         padding-left: 90px;
         width: 500px;
     }
     #benefits img {
-        margin-left: -20px; margin-right: 10px;}  
+        margin-left: -20px;
+        margin-right: 10px;
+    }
     #benefits p {
         text-align: justify;
         width: [width of img];
@@ -200,11 +202,11 @@ hr {
     }
     #who-we-are img {
         width: 70%;
-   margin: 0 auto;
+        margin: 0 auto;
     }
     #who-we-are p {
         font-size: 12px;
-       text-align: justify;
+        text-align: justify;
         width: [width of img];
         margin: 10px 30px;
         text-align: center;
