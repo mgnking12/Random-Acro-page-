@@ -35,3 +35,33 @@ opacity: .5;}
     padding-top: 160px;
     opacity: .8;
 }
+
+
+@media only screen and (max-width: 768px) {
+.topleft {
+    width: 100%;
+
+ 
+    background-color: #CC9999;
+       padding-top: 160px;
+    opacity: .8;
+}
+
+.p:hover {text-decoration: none;
+opacity: .8}
+
+.p {font-family:monospace;
+    font-size: 120px;
+text-decoration: none;
+color: cadetblue;
+opacity: .5;}
+
+
+.topright {
+    width: 100%;
+
+    background-color: #9E9C80;
+    padding-top: 160px;
+    opacity: .8;
+}
+}
