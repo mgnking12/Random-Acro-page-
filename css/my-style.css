@@ -190,7 +190,8 @@ hr {
         padding-left: 90px;
         width: 500px;
     }
-    #benefits img {margin-right: 10px;}  
+    #benefits img {
+        margin-left: -20px; margin-right: 10px;}  
     #benefits p {
         text-align: justify;
         width: [width of img];
