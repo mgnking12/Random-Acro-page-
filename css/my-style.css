@@ -48,29 +48,6 @@ hr {
 /*landing*/
 
 
-
-.topleftimg {
-    height: 150px;
-    border-radius: 100%;
-    margin: -25px 20px;
-    float: left;
-}
-
-
-#phone {
-    margin: 10px 20px;
-    font-size: 25px;
-    color: #ccc;
-    text-shadow: 1px 1px darkgrey;
-}
-
-#landing {
-    margin-top: -50px;
-}
-
-#landing .col-sm-12 {
-    margin-top: 100px;
-}
 /*who-we-are*/
 
 #who-we-are {
