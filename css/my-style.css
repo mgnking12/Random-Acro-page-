@@ -103,7 +103,7 @@ hr {
     width: [width of img];
     font-size: 20px;
 }
-#benefits {    background-color: #91814C;}
+#benefits {    background-color: #488145;}
 #benefits h2 {
     margin-bottom: 50px;
 }
@@ -120,8 +120,10 @@ hr {
 }
 
 #activities {
+    visibility: inherit;
     background-color: #715F71;
 }
+#activities:active {visibility: visible;}
 
 #activities p {
      text-align: justify;
@@ -184,14 +186,7 @@ hr {
         font-size: 30px;
         margin: 10px;
     }
-    #landing p {
-        font-size: 20px;
-    }
-    #landing a {
-        padding: 5px;
-        font-size: 15px;
-    }
-    
+   
     #landing .col-sm-3 {
         font-size: 20px;
         padding-left: 90px;
