@@ -21,7 +21,7 @@ body {
 opacity: .8}
 
 .p {font-family:monospace;
-    font-size: 120px;
+        font-size: 10vw;
 text-decoration: none;
 color: cadetblue;
 opacity: .5;}
@@ -49,11 +49,11 @@ float: none;
 opacity: .8}
 
 .p {font-family:monospace;
-    font-size: 110px;
+   font-size: 20vw;
 text-decoration: none;
 color: cadetblue;
 opacity: .5;
-    font-size: 85px;
+
 }
 
 
