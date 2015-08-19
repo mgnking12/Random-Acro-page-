@@ -14,18 +14,19 @@ body {
     float: left;
     background-color: #CC9999;
        padding-top: 160px;
-    opacity: .8;
+    
 }
 
 a:hover {text-decoration: none;
-opacity: .8;
-color: darkslateblue;}
+opacity: 1;
+}
+a {opacity: .2;}
 
 .p {font-family:monospace;
         font-size: 10vw;
 text-decoration: none;
-color: cadetblue;
-opacity: .7;}
+color: #5F668E;
+}
 
 
 .topright {
@@ -34,7 +35,7 @@ opacity: .7;}
     float: right;
     background-color: #9E9C80;
     padding-top: 160px;
-    opacity: .8;
+
 }
 
 
