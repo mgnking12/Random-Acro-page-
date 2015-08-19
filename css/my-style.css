@@ -4,7 +4,6 @@ html,
 body {
     height: 100%;
 }
-
 section {
     padding: 50px 0;
 }
@@ -54,10 +53,12 @@ hr {
     background-color: #2C515E;
     font-size: 18px;
     color: #0B292B;
+  
 }
 
 #who-we-are h2 {
     margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 #who-we-are p {
@@ -121,6 +122,8 @@ hr {
     #benefits p {
         font-size: 12px;
     }
+    
+    
     #who-we-are p {
         font-size: 16px;
     }
@@ -159,6 +162,9 @@ hr {
         margin: 0 auto;
         font-size: 14px;
     }
+    
+    #who-we-are h2 {margin-top: -50px;
+    margin-bottom: 20px;}
     #who-we-are img {
         width: 70%;
         margin: 0 auto;
