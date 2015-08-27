@@ -48,15 +48,15 @@ float: none;
     padding-bottom: 45px;
 }
 
-.p:hover {text-decoration: none;
-opacity: .8}
+a:hover {text-decoration: none;
+opacity: 1;
+}
+a {opacity: .2;}
 
 .p {font-family:monospace;
    font-size: 20vw;
 text-decoration: none;
-color: cadetblue;
-opacity: .5;
-
+color: #5F668E;
 }
 
 
@@ -68,3 +68,4 @@ width: 100%;
     padding-bottom: 45px;
 }
 }
+
